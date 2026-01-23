@@ -5,7 +5,7 @@
 ;; Author: Timm Lichte <timm.lichte@uni-tuebingen.de>
 ;; URL: https://github.com/timmli/org-fm-dev/blob/master/org-fm.el
 ;; Version: 0
-;; Last modified: 2025-04-19 Sat 21:31:01
+;; Last modified: 2026-01-23 Fri 17:00:08
 ;; Package-Requires: ((org-mode "9"))
 ;; Keywords: Org
 
@@ -141,7 +141,8 @@
   "Face for the question type of minutes items.")
 
 (defface org-fm-alert-face
-  '((t ( :foreground "red"
+  '((t ( :box t
+         :foreground "red"
          :weight bold)))
   "Face for the alert type of minutes items.")
 
